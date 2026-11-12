@@ -1,0 +1,7 @@
+[
+  {"args":["chat_render_drift.py","examples/baseline.json","examples/same.json"],"exit":0},
+  {"args":["chat_render_drift.py","examples/baseline.json","examples/byte-drift.json"],"exit":1},
+  {"args":["chat_render_drift.py","examples/baseline.json","examples/token-drift.json"],"exit":1},
+  {"args":["chat_render_drift.py","examples/baseline.json","examples/both-prefix-drift.json"],"exit":1},
+  {"args":["chat_render_drift.py","examples/baseline.json","examples/duplicate-key.json"],"exit":2}
+]
